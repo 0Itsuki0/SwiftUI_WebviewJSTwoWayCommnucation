@@ -6,14 +6,25 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		983B05B72EA1C275002BA0B6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 983B05B62EA1C275002BA0B6 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		983B05A82EA08487002BA0B6 /* WebviewJsCommunicationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebviewJsCommunicationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		983B05B62EA1C275002BA0B6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		983B05BC2EA1D673002BA0B6 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		983B05AA2EA08487002BA0B6 /* WebviewJsCommunicationDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = WebviewJsCommunicationDemo;
+			sourceTree = "<group>";
+		};
+		983B16512EA1D70D002BA0B6 /* web */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = web;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +43,9 @@
 		983B059F2EA08487002BA0B6 = {
 			isa = PBXGroup;
 			children = (
+				983B05BC2EA1D673002BA0B6 /* demo.gif */,
+				983B16512EA1D70D002BA0B6 /* web */,
+				983B05B62EA1C275002BA0B6 /* README.md */,
 				983B05AA2EA08487002BA0B6 /* WebviewJsCommunicationDemo */,
 				983B05A92EA08487002BA0B6 /* Products */,
 			);
@@ -109,6 +123,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983B05B72EA1C275002BA0B6 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

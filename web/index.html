@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebView & Javascript Communication</title>
+    <!--
+        Uncomment the script For testing on the web.
+        Will be injected from the Swift App Side.
+    -->
+    <!-- <script>
+        function setTheme(newTheme) {
+            window.itsuki.theme = newTheme
+            const event = new CustomEvent("itsuki:set_globals", {
+                detail: {
+                    globals: {
+                        theme: newTheme
+                    }
+                }
+            })
+
+            window.dispatchEvent(event)
+        }
+
+        window.itsuki = {
+            "theme": "dark",
+            "setTheme": setTheme,
+            "callFunction": async (name, value) => {
+                if (name === "multiplier") {
+                    const values = value.values
+                    if (values.length === 0) {
+                        return 0
+                    }
+                    let final = values[0]
+                    for (let i = 1; i < values.length; i++) {
+                        final = final * values[i]
+                    }
+
+                    return final
+                }
+                if (name === "getError") {
+                    throw new Error("some error")
+                }
+
+            }
+        }
+    </script> -->
+</head>
+
+<body>
+    <div id="container"></div>
+    <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
