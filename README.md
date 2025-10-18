@@ -7,7 +7,7 @@ Specifically, this demo includes
 2. Get a response from Swift Function (async throws) from JS
 3. Call JS function from Swift and update UI on the Web
 
-For more details, please refer to my article [SwiftUI:  Webview ↔ JavaScript. Two-Way Communication.]()
+For more details, please refer to my article [SwiftUI:  Webview ↔ JavaScript. Two-Way Communication.](https://medium.com/@itsuki.enjoy/swiftui-webview-javascript-two-way-communication-d820f310d4c2)
 
 
 ## Run the App
